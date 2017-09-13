@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Montserrat');
+
+body{
+    background-color: red;
+}
+
+h1{
+    font-family: Merriweather, sans-serif;
+    font-size: 500%;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+}
+
+h2{
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 200%;
+    text-align: center;
+    text-transform: uppercase;
+    color: yellow;
+    letter-spacing: 2px;
+    width: 100%;
+    padding: 0px 0px;
+    margin: 8pxpx 0px;
+}
+
+div.velkommen{
+    border: 3px solid yellow;
+    border-radius: 13px;
+    max-width: 350px;
+    margin: auto;
+}
+div.velkommen:hover{
+    border: 2px solid #fffbfb;
+}
+
+h2:hover{
+    color: aqua;
+}
