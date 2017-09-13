@@ -1,2 +1,29 @@
-@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text|Oswald|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Oswald|Raleway');
 
+body{
+    background-color: yellow;
+}
+
+h1{
+    color: black;
+}
+
+h2{
+    font-family: Oswald, sans-serif;
+    font-size: 250%;
+    color: red;
+    text-align: center;
+}
+
+h3{
+    font-family: "Merriweather", sans-serif;
+    font-size: 140%;
+}
+
+div{
+    text-align: center;
+}
+
+ol{
+    font-family: Raleway;
+}
