@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Intro til HTML</title>
-    <link rel="stylesheet" href="css/intro.css">
+    <link rel="stylesheet" href="../css/intro.css">
 </head>
 <body>
 <h1>Intro til HTML</h1>
@@ -12,9 +12,11 @@
 
 <h3>Tabell</h3>
 
-<div>
+<div class="premierleaguetabell">
     <ol>
-        <li>Manchester United</li>
+        <div class="førsteplass">
+            <li><strong>Manchester United</strong></li>
+        </div>
         <li>Manchester City</li>
         <li>Chelsea</li>
         <li>Watford</li>
@@ -32,8 +34,10 @@
         <li>Everton</li>
         <li>Leichester</li>
         <li>West Ham</li>
+        <div class="nedrykk">
         <li>Bournmouth</li>
         <li>Crystal Palace</li>
+        </div>
     </ol>
 </div>
 
@@ -41,14 +45,34 @@
 
 
 <h3>Toppscorere</h3>
-
-<ol>
-    <li><pre><a href="https://no.wikipedia.org/wiki/Romelu_Lukaku">Lukaku</a>       4</pre></li>
-    <li><pre><a href="https://no.wikipedia.org/wiki/Danny_Welbeck">Welbeck</a>      3</pre></li>
-    <li><pre><a href="https://no.wikipedia.org/wiki/%C3%81lvaro_Morata">Morata</a>       3</pre></li>
-</ol>
-
+<div class="toppscorer">
+    <ol>
+        <li><pre><a href="https://no.wikipedia.org/wiki/Romelu_Lukaku">Lukaku</a>       4</pre></li>
+        <li><pre><a href="https://no.wikipedia.org/wiki/Danny_Welbeck">Welbeck</a>      3</pre></li>
+        <li><pre><a href="https://no.wikipedia.org/wiki/%C3%81lvaro_Morata">Morata</a>       3</pre></li>
+    </ol>
+</div>
 <hr style="color: blue">
+
+<p>
+    <b>Hei, jeg heter Nils</b> og
+    <strong style="font-size: 150%">jeg elsker kake.</strong>
+    <i>En gang gikk jeg en tur</i>.
+    <em>En frosk hopper høyt.</em>
+    <del>Dette er en krise.</del>
+    <ins>Nei, nei og atter nei.</ins>
+    Hola, me llamo Nils. Soy de Batnfjord y hablo ingles.
+</p>
+
+<p style="font-size: 500%">Svein elsker Liverpool. <3</p>
+
+<hr>
+
+<details>
+    <summary>Hei</summary>
+    <p>Dette er helt utrolig</p>
+    <p>HVA!? Er det helt sant?</p>
+</details>
 
 </body>
 </html>
