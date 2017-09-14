@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather|Oswald|Raleway');
-
+@import url('https://fonts.googleapis.com/css?family=Anton|Archivo+Black|Merriweather|Oswald|Raleway');
 body{
-    background-color: yellow;
+    background-color: blue;
 }
 
 h1{
@@ -9,21 +8,40 @@ h1{
 }
 
 h2{
-    font-family: Oswald, sans-serif;
+    font-family: Anton, sans-serif;
     font-size: 250%;
-    color: red;
+    color: white;
     text-align: center;
 }
 
 h3{
+    color: white;
     font-family: "Merriweather", sans-serif;
     font-size: 140%;
 }
 
-div{
+div.premierleaguetabell{
     text-align: center;
+
+}
+
+div.førsteplass{
+    color: gold;
+    font-size: 120%;
+}
+
+div.nedrykk{
+    color: red;
 }
 
 ol{
     font-family: Raleway;
+    color: white;
+}
+
+a{color: white}
+
+p{
+    color: white;
+    font-family: "Raleway", sans-serif;
 }
