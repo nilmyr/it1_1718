@@ -22,7 +22,7 @@ h2{
     letter-spacing: 2px;
     width: 100%;
     padding: 0px 0px;
-    margin: 8pxpx 0px;
+    margin: 8px 0px;
 }
 
 div.velkommen{
@@ -31,7 +31,7 @@ div.velkommen{
     max-width: 350px;
     margin: auto;
 }
-div.velkommen:hover{
+a.velkommen:hover{
     border: 2px solid #fffbfb;
 }
 
