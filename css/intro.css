@@ -4,7 +4,7 @@ body{
 }
 
 h1{
-    color: black;
+    color: black; /* svart */
 }
 
 h2{
@@ -15,9 +15,15 @@ h2{
 }
 
 h3{
-    color: white;
+    color: white; /* kvit */
     font-family: "Merriweather", sans-serif;
     font-size: 140%;
+}
+
+h5{
+    color: white;
+    font-family: Serif;
+    font-size: 120%;
 }
 
 div.premierleaguetabell{
