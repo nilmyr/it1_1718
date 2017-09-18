@@ -21,17 +21,18 @@ h2{
     color: yellow;
     letter-spacing: 2px;
     width: 100%;
-    padding: 0px 0px;
+    padding: 10px 0px;
     margin: 8px 0px;
 }
 
-div.velkommen{
+a.velkommen{
     border: 3px solid yellow;
     border-radius: 13px;
     max-width: 350px;
     margin: auto;
+    text-decoration: none;
 }
-a.velkommen:hover{
+div.velkommen:hover{
     border: 2px solid #fffbfb;
 }
 
