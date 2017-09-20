@@ -20,14 +20,15 @@ h2{
     text-transform: uppercase;
     color: yellow;
     letter-spacing: 2px;
-    width: 100%;
+    width: 300px;
     padding: 10px 0px;
-    margin: 8px 0px;
+    margin: 0px auto;
+    border: 3px solid yellow;
+    border-radius: 13px;
 }
 
 a.velkommen{
-    border: 3px solid yellow;
-    border-radius: 13px;
+
     max-width: 350px;
     margin: auto;
     text-decoration: none;
