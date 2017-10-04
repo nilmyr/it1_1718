@@ -1,0 +1,39 @@
+body{
+    background-color: #b89115;
+    font-family: sans-serif;
+}
+
+h1{
+    border: 3px solid yellowgreen;
+}
+
+ul{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+
+}
+
+
+li a{
+    background-color: #28abe3;
+    width: 120px;
+    padding: 10px;
+    margin 2px;
+    color: yellow;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    border-radius: 5px;
+}
+
+li a:hover{
+    background-color: deepskyblue;
+    box-shadow: blue 2px 2px;
+}
+
+div.pakker{
+    width: 850px;
+    background-color: whitesmoke;
+    margin: auto;
+}

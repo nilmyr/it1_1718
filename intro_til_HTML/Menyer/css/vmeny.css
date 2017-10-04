@@ -1,0 +1,30 @@
+body{
+    background-color: red;
+}
+
+div.pakker{
+    width: 850px;
+    margin: auto;
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: inline;
+}
+
+li a{
+    width: 120px;
+    padding: 10px;
+    margin: 2px;
+    color: yellow;
+    background-color: black;
+    border-radius: 5px;
+
+}
